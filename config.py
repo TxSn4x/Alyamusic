@@ -46,18 +46,18 @@ STRING5 = os.getenv("STRING_SESSION5", None)
 
 AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/7q8bfg.jpg")
-PING_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/d89a1af7b8a05f3c7022e-0a8e1aaf7f6382a5ea.jpg")
+PING_IMG_URL = "https://graph.org/file/50a9d90a0e16757b8f404-5135bf83b276f477c9.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/eehxb4.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
+STREAM_IMG_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/dd89f781d647090fd4979-2c7e790a6c5d3c93b9.jpg"
 
 BANNED_USERS = filters.user()
 adminlist = {}
