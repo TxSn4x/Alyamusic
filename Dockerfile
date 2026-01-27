@@ -4,6 +4,8 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends ffmpeg && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+RUN mkdir -p /etc/apt/keyrings && \
+    curl -fsSL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor -o /etc/apt/keyrings/yarn.gpg
 
 
 COPY . /app/
